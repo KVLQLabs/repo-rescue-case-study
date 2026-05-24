@@ -1,0 +1,10 @@
+[project]
+name = "repo-rescue-case-study"
+version = "0.1.0"
+description = "Small repo repair case study with tests and CI."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
